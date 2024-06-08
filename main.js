@@ -21,12 +21,14 @@ images.forEach((item, i) => {
 
 // Function to update image in popup
 const updateImage = (i) => {
-    const path = images[i].src;
+    const image = images[i];
+    const path = image.src;
     largeImage.src = path;
-    imageName.innerText = path.split('/').pop();
+    imageName.innerText = image.alt; // Display alt text instead of URL
     imageIndex.innerText = `0${i + 1}`;
     index = i;
 }
+
 
 // Close popup
 closeBtn.addEventListener('click', () => {
@@ -46,3 +48,13 @@ rightArrow.addEventListener('click', () => {
         updateImage(index + 1);
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        img.setAttribute('loading', 'lazy');
+    });
+});
+
+
+
