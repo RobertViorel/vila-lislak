@@ -21,7 +21,7 @@ body{
 /* Header start */
 .video-section {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     overflow: hidden;
     border-bottom-left-radius: 30px;  /* Match the container's radius */
     border-bottom-right-radius: 30px;
@@ -118,7 +118,8 @@ a{
 .nav-link:hover{
     border: none;
     border-radius: 10px;
-    background: linear-gradient(to bottom, #ffd900be, #b8870bbe);
+    text-decoration: underline;
+
 }
 
 
@@ -257,7 +258,7 @@ footer{
 
 /* Styles for the section */
 .bg-image {
-    background-image: url('public/Vila Lisjak, exterijer/Exterijer-15.jpg'); /* Replace with your image path */
+    background-image: url('/Vila Lisjak, exterijer/Exterijer-15.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100%;
