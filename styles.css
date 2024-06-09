@@ -90,24 +90,45 @@ h5{
 
 }
 
+
 .navbar img{
     width: 100px;
     padding: 0;
     margin: 0;
 }
-.links{
-    display: flex;
-    justify-content: center;
-    list-style: none;
 
-}
-.links li{
-    justify-content: center;
-
-}
 a{
     text-decoration: none;
 }
+
+
+.nav-link {
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Hover effect */
+.nav-link:hover {
+    color: #0056b3; /* Text color on hover */
+}
+
+/* Underline effect */
+.nav-link::before {
+    content: ''; /* Empty content for pseudo-element */
+    position: absolute; /* Position absolute */
+    width: 0; /* Initial width */
+    height: 2px; /* Height of underline */
+    bottom: 0; /* Align to the bottom */
+    left: 50%; /* Start from the center */
+    background-color: #0056b3; /* Color of the underline */
+    transition: width 0.3s ease-out, left 0.3s ease-out; /* Transition effect */
+}
+
+.nav-link:hover::before {
+    width: calc(100% - 30px); /* Full width on hover minus padding (15px on each side) */
+    left: 15px; /* Align to the left */
+}
+
 
 @media (max-width: 951.98px) {
     .navbar-collapse  {
@@ -132,18 +153,13 @@ a{
         border-bottom-right-radius: 10px;
 
     }
+    .navbar{
+        justify-content: space-between;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
-
-.nav-link:hover{
-    border: none;
-    border-radius: 10px;
-    text-decoration: underline;
-
-}
-
-
-
-
 
 
 
@@ -166,19 +182,6 @@ a{
 .about-content h2 {
     color: #0056b3;
 }
-.gallery-button {
-    background: linear-gradient(to bottom, #ffd700, #b8860b);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.gallery-button:hover {
-    background: linear-gradient(to bottom, #b8860b, #ffd700);
-}
-
 
 .icon-box {
     text-align: center;
@@ -204,17 +207,12 @@ footer{
     height: 5rem;
     background: #0056b3;
 }
-.foot{
-    margin-top: 10px;
-}
+
 .footer_img{
     width: 250px;
 
 }
-.fa-spa{
-    color: #0056b3;
 
-}
 .socials{
     gap: 30px;
 }
@@ -229,11 +227,11 @@ footer{
     color: rgb(7, 7, 7, 0.87);
 }
 .footer_links:hover{
-    background: linear-gradient(to bottom, #b8860b, #ffd700);
-    padding: 2px;
-    border: none;
-    border-radius: 10px;
+    color: #0056b3;
 }
+
+
+
 .carousel-inner{
     border: none;
     border-radius: 10px;
@@ -277,7 +275,7 @@ footer{
 
 /* Styles for the section */
 .bg-image {
-    background-image: url('/Vila Lisjak, exterijer/Exterijer-15.jpg'); /* Replace with your image path */
+    background-image: url('public/Vila Lisjak, exterijer/Exterijer-15.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -315,4 +313,11 @@ footer{
 }
 .card{
     border: none;
+}
+.text-dark{
+    font-size: 14px;
+}
+
+.robert{
+    font-size: 14px;
 }
