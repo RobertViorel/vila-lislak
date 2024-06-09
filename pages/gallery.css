@@ -8,8 +8,6 @@
 .gallery{
     width: 80%;
     height: auto;
-    max-width: 1600px;
-    max-height: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -151,5 +149,4 @@
     object-fit: contain;
     opacity: 0;
 }
-
 
