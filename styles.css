@@ -295,9 +295,7 @@ footer{
 
 
 
-.text-muted {
-    color: #6c757d;
-}
+
 
 .btn-primary {
     background-color: #0056b3;
@@ -320,4 +318,6 @@ footer{
 
 .robert{
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
