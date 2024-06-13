@@ -30,10 +30,10 @@
               </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                  <a class="nav-link" href="pages/gallery">GALLERY</a>
-                  <a class="nav-link" href="pages/apartments">APARTMENTS</a>
-                  <a class="nav-link" href="pages/booking">BOOKING</a>
+                  <a class="nav-link active" aria-current="page" href="#">Domov</a>
+                  <a class="nav-link" href="pages/gallery">Galerija</a>
+                  <a class="nav-link" href="pages/apartments">Nastanitve</a>
+                  <a class="nav-link" href="pages/booking">Rezerviraj zdaj</a>
                 </div>
               </div>
         </div>
@@ -102,7 +102,7 @@
                 <div class="about-content">
                     <h2>Naša zgodba</h2>
                     <hr class="info-hr">
-                    <p>Vila Lisjak obsega 6 večjih družinskim apartmajev in eno dodatno dvoposteljno sobo. Lokacija je res izvrstna, saj je nasproti Aqualune in samo 300 metrov od Term Olimia. Apartmaji so zelo prostorni, svetli, popolnoma opremljeni (tudi s pomivalnim strojem) in urejeni s pridihom domačnosti, vendar z izbranimi materiali in sodobno tehnologijo nudijo vso potrebno udobje, ki si ga naši gostje zaslužijo in pričakujejo. Za vaše najmlajše smo uredili tudi zunanje igrišče in igrala, kjer se bodo vaši otroci počutili kot doma. </p>
+                    <p class="text-muted">Vila Lisjak obsega 6 večjih družinskim apartmajev in eno dodatno dvoposteljno sobo. Lokacija je res izvrstna, saj je nasproti Aqualune in samo 300 metrov od Term Olimia. Apartmaji so zelo prostorni, svetli, popolnoma opremljeni (tudi s pomivalnim strojem) in urejeni s pridihom domačnosti, vendar z izbranimi materiali in sodobno tehnologijo nudijo vso potrebno udobje, ki si ga naši gostje zaslužijo in pričakujejo. Za vaše najmlajše smo uredili tudi zunanje igrišče in igrala, kjer se bodo vaši otroci počutili kot doma. </p>
                     <p>Ob slabšem vremenu, pa smo uredili tudi notranjo igralnico s pinkponk mizo, pikadom in kinom za otroke.  Medtem ko bodo otroci zaposleni, boste lahko odrasli brezplačno uživali v naši finski savni ali pa si privoščili kakšno masažo. Brezplačno lahko najamete tudi kolo in uporabljate piknik prostor. Ne čakaj predolgo in si rezerviraj popoln dopust.</p>
                     <a href="pages/gallery" class="btn btn-primary">Galerija ➔</a>
                 </div>
@@ -163,7 +163,7 @@
                           </div>
                         <div class="card-body">
                             <h5>Finska savna</h5>
-                            <p>Zelo prostorna in s pridihom domačnosti bo poskrbela za vaše zdravje, regeneracijo in sprostitev in to povsem brezplačno.t</p>
+                            <p class="text-muted">Zelo prostorna in s pridihom domačnosti bo poskrbela za vaše zdravje, regeneracijo in sprostitev in to povsem brezplačno.t</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                           </div>
                         <div class="card-body">
                             <h5>Aqualuna in Terme Olimia</h5>
-                            <p>Za brezskrbno in popolno razvajanje vas in vaših najbližjih je dobro poskrbljeno.</p>
+                            <p class="text-muted">Za brezskrbno in popolno razvajanje vas in vaših najbližjih je dobro poskrbljeno.</p>
                         </div>
                     </div>
                 </div>
@@ -235,60 +235,263 @@
     <!-- Apartment Section Start -->
 
 
-    <div class=" container mt-5 mb-5 aps">
-            <h2>Our Apartments</h2>
+    <div class=" container mt-5 mb-5">
+            <h2>Nastanitve</h2>
             <hr class="info-hr">
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto distinctio optio nemo eos voluptates modi alias odio, sint ex dicta facere unde similique suscipit harum inventore magnam corporis doloremque.
-            </p>
-    </div>
-
-    <div id="apartmentCarousel" class="carousel slide container mb-5 mt-5"  data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+            <!-- <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto distinctio optio nemo eos voluptates modi alias odio, sint ex dicta facere unde similique suscipit harum inventore magnam corporis doloremque.
+            </p> -->
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href="pages/apartments#carouselAqua">
-                            <div class="card">
+                    <div class="col">
+                        <a href="pages/apartments#apartmentAqua">
+                            <div class="card mt-5" style="width: 21rem;">
                                 <img src="public/Vila Lisjak, Aqua/Aqua.jpg" class="card-img-top" alt="Apartment 1">
                                 <div class="card-body">
-                                    <h5>Apartment Aqua</h5>
-                                    <p>Description of Apartment 1</p>
+                                    <h5> APARTMA AQUA</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            95 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            1 družinska spalnica (2 postelji)
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 5 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4">
-                        <a href="pages/apartments#carouselCoko">
-                            <div class="card">
-                                <img src="/public/Vila Lisjak, coco/coco.jpg" class="card-img-top" alt="Apartment 2">
+                    <div class="col">
+                        <a href="pages/apartments#apartmentGolf">
+                            <div class="card mt-5" style="width: 21rem;">
+                                <img src="public/Vila Lisjak, Golf/Golf.jpg" class="card-img-top" alt="Apartment 1">
                                 <div class="card-body">
-                                    <h5>Apartment Čoko</h5>
-                                    <p>Description of Apartment 2</p>
+                                    <h5> APARTMA GOLF</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            110 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            2 spalnic
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 6 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4">
-                        <a href="pages/apartments#carouselGolf">
-                            <div class="card">
-                                <img src="public/Vila Lisjak, Golf/Golf.jpg" class="card-img-top" alt="Apartment 3">
+                    <div class="col">
+                        <a href="pages/apartments#apartmentJelen">
+                            <div class="card mt-5" style="width: 21rem;">
+                                <img src="public/Vila Lisjak, Jelen/Jelen.jpg" class="card-img-top" alt="Apartment 1">
                                 <div class="card-body">
-                                    <h5>Apartment Golf</h5>
-                                    <p>Description of Apartment 3</p>
+                                    <h5> APARTMA JELEN</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            95 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            1 družinska spalnica (2 postelji)
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 5 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="pages/apartments#apartmentHmelj">
+                            <div class="card mt-5" style="width: 21rem;">
+                                <img src="public/Vila Lisjak, Hmelj/Hmelj.jpg" class="card-img-top" alt="Apartment 1">
+                                <div class="card-body">
+                                    <h5> APARTMA HMELJ</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            130 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            3 spalnice
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 8 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="pages/apartments#apartmentLipa">
+                            <div class="card mt-5" style="width: 21rem;">
+                                <img src="public/Vila Lisjak, Lipa/Lipa.jpg" class="card-img-top" alt="Apartment 1">
+                                <div class="card-body">
+                                    <h5> APARTMA LIPA</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            120 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            2 spalnici
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 6 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="pages/apartments#apartmentOrhid">
+                            <div class="card mt-5" style="width: 21rem;">
+                                <img src="public/Vila Lisjak, Orhid/Orhid.jpg" class="card-img-top" alt="Apartment 1">
+                                <div class="card-body">
+                                    <h5> APARTMA ORHID</h5>
+                                    <p class="text-muted">
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-ruler-combined"></i>
+                                            120 m2
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-bed"></i>
+                                            2 spalnici
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-people-group"></i>
+                                            Primeren za do 6 oseb
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-kitchen-set"></i>
+                                            Velika dnevna soba s kuhinjo in jedilnico
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-chair"></i>
+                                            Zunanja terasa
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-wifi"></i>
+                                            WIFI
+                                        </p>
+                                        <p class="apartmentsText">
+                                            <i class="fa-solid fa-xs fa-snowflake"></i>
+                                            Klimatizirano
+                                        </p>
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
-
     <!-- Apartment Section End -->
 
 
     <div class="container text-center">
-        <p><a href="/pages/apartments" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">View All</a></p>
+        <p><a href="/pages/apartments" class="btn btn-primary">View All →</a></p>
     </div>
     <div class="container my-5">
         <div class="row">
@@ -317,16 +520,16 @@
             <hr class="custom-hr">
             <div class="row text-center text-md-start">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4">Address</h5>
-                    <p>Kristan VRH 2351,<br>
-                    Podplat, Slovenia</p>
+                    <h5 class="text-uppercase mb-4">Kje nas najdete</h5>
+                    <p>Zdraviliška cesta 10,<br>
+                        3254 Podčetrtek</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mt-3">
                     <h5 class="text-uppercase mb-4">Links</h5>
-                    <p><a href="/" class="footer_links">HOME</a></p>
-                    <p><a href="/pages/gallery" class="footer_links" style="text-decoration:none;">GALLERY</a></p>
-                    <p><a href="/pages/apartments" class="footer_links" style="text-decoration:none;">APARTMENTS</a></p>
-                    <p><a href="/pages/booking" class="footer_links" style="text-decoration:none;">BOOKING</a></p>
+                    <p><a href="/" class="footer_links">Domov</a></p>
+                    <p><a href="/pages/gallery" class="footer_links" style="text-decoration:none;">Galerija</a></p>
+                    <p><a href="/pages/apartments" class="footer_links" style="text-decoration:none;">Nastanitve</a></p>
+                    <p><a href="/pages/booking" class="footer_links" style="text-decoration:none;">Rezerviraj zdaj</a></p>
                 </div>
                 <div class=" col-12 col-md-2 mx-auto p-0 mt-3 text-center text-md-start">
                     <h5 class="text-uppercase mb-4">Contact</h5>
@@ -341,7 +544,7 @@
                     <div>
                         <p>
                             <i class="fas fa-phone fa-1x"></i>
-                            <a href="tel:+4369834123">+4369834123</a>
+                            <a href="tel:+38631488785">+38631488785</a>
                         </p>
                         <p>
                             <i class="fas fa-envelope fa-1x mr-3"></i>

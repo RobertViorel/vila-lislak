@@ -16,7 +16,9 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+p{
+    font-size: 1rem;
+}
 
 /* Header start */
 .video-section {
@@ -216,8 +218,10 @@ footer{
 .socials{
     gap: 30px;
 }
+
 .fa-1x,
 .fa-2x,
+.fa-xs,
 .fa-3x{
     color: #0056b3;
 }
@@ -230,7 +234,9 @@ footer{
     color: #0056b3;
 }
 
-
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.227);
+}
 
 .carousel-inner{
     border: none;
@@ -322,3 +328,7 @@ footer{
     padding: 0;
 }
 
+.apartmentsText{
+    font-size: 14px;
+    line-height: 8px;
+}
